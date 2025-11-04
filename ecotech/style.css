@@ -7,7 +7,7 @@ body{
 .inicio {
     display: grid;
 
-    gap: 30px;
+    gap: 20px;
 }
 
 .header {
@@ -89,6 +89,27 @@ a:hover {
 }
 
 
+.sobre {
 
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    size: 400px;
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
 
+}
 
+.sobre h4 {
+
+    clear: both;
+    
+}
+
+.sobre img {
+
+    float: left;
+    height: 200px;
+
+}
