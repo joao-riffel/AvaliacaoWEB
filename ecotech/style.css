@@ -1,0 +1,94 @@
+body{
+
+    background-color: #f0e39162;
+
+}
+
+.inicio {
+    display: grid;
+
+    gap: 30px;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+
+
+}
+
+.header h1{
+
+    color: #658C58;
+    font-weight: 900;
+    font-size: 4rem;
+    flex-grow: 100v;
+
+}
+
+.navbar {
+
+    background-color: #31694E;
+    border-radius: 10px;
+
+
+}
+
+.header a {
+
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 110%
+
+}
+
+a:hover {
+
+    color: #f0e391;
+
+}
+
+.banner div{
+
+    display: flex;
+    background-color: white;
+    border: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+
+}
+
+.banner p {
+
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 50px;
+
+}
+
+.banner button {
+
+    background-color: #31694E;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-right: 50px;
+
+}
+
+
+
+
+
